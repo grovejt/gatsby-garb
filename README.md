@@ -1,3 +1,18 @@
+# Description
+
+Re-worked version of the garb app from "The Gatsby Masterclass".
+
+- Original Course: https://udemy.com/course/the-gatsby-masterclass
+- Updated Source Code (this project): xxx
+
+![Context Diagram](docs/ContextDiagram.png)
+
+# Tech Stack Notes
+
+- Gatsby JS
+- VS Code
+- Draw IO
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">

@@ -620,3 +620,38 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+/* Navlink */
+.active {
+  color: orange;
+  text-decoration: none;
+}
+
+.active:hover,
+.navlink:hover {
+  text-decoration: underline;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+}
+
+/* Netlify Identity */
+.netlify-identity-menu {
+  list-style: none;
+  color: white;
+  margin: 0;
+}
+
+.netlify-identity-signup {
+  color: white;
+}
+
+.netlify-identity-login {
+  color: white;
+}
+
+.netlify-identity-logout {
+  color: white;
+}

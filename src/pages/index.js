@@ -5,6 +5,9 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+console.log("process.env.NODE_ENV", process.env.NODE_ENV)
+// console.log("process.env.CONTENTFUL_SPACE_ID", process.env.CONTENTFUL_SPACE_ID)
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -14,7 +17,11 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
+    <Link to="/blog/">Blog</Link>
+    <p />
     <Link to="/page-2/">Go to page 2</Link>
+    <p />
+    <Link to="/page-3/">Go to page 3</Link>
   </Layout>
 )
 
