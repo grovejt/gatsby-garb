@@ -5,7 +5,17 @@ Re-worked version of the garb app from "The Gatsby Masterclass".
 - Original Course: https://udemy.com/course/the-gatsby-masterclass
 - Updated Source Code (this project): xxx
 
+![Context Diagram](docs/ContextDiagram.html)
+
 ![Context Diagram](docs/ContextDiagram.png)
+
+## Setup Notes:
+
+Note: the following variables need to be set in a file named .env:
+
+- CONTENTFUL_SPACE_ID=
+- CONTENTFUL_ACCESS_TOKEN=
+- SNIPCART_API_KEY=
 
 # Tech Stack Notes
 
