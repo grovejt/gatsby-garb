@@ -1,9 +1,9 @@
-import React from "react"
-import { graphql, Link } from "gatsby"
-import Img from "gatsby-image"
+import React from "react";
+import { graphql, Link } from "gatsby";
+import Img from "gatsby-image";
 // import netlifyIdentity from 'netlify-identity-widget'
 
-import Layout from "../components/layout"
+import Layout from "../components/layout";
 
 // class Products extends React.Component {
 const Products = ({ data: { allContentfulProduct } }) => {
@@ -38,10 +38,7 @@ const Products = ({ data: { allContentfulProduct } }) => {
         {allContentfulProduct.edges.map(({ node: product }) => (
           <div key={product.id}>
             <h2>Garb Products</h2>
-            <Link
-              to={`/products/${product.slug}`}
-              style={{ textDecoration: "none", color: "#551a8b" }}
-            >
+            <Link to={`/products/${product.slug}`} style={{ textDecoration: "none", color: "#551a8b" }}>
               <h3>
                 {product.name} ·{" "}
                 <span
@@ -60,8 +57,8 @@ const Products = ({ data: { allContentfulProduct } }) => {
         ))}
       </div>
     </Layout>
-  )
-}
+  );
+};
 // }
 
 export const query = graphql`
@@ -76,13 +73,13 @@ export const query = graphql`
           private
           image {
             fluid(maxWidth: 400) {
-              ...GatsbyContentfulFluid_tracedSVG
+              ...GatsbyContentfulFluid
             }
           }
         }
       }
     }
   }
-`
+`;
 
-export default Products
+export default Products;

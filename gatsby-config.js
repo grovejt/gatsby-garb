@@ -1,7 +1,6 @@
-const dotenv = require("dotenv")
-if (process.env.NODE_ENV === "development") {
-  dotenv.config()
-}
+const dotenv = require("dotenv");
+dotenv.config();
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Garb`,
@@ -67,4 +66,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ]
-}
+};
