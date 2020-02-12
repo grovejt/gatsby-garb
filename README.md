@@ -5,9 +5,7 @@ Re-worked version of the garb app from "The Gatsby Masterclass".
 - Original Course: https://udemy.com/course/the-gatsby-masterclass
 - Updated Source Code (this project): https://github.com/grovejt/gatsby-garb
 
-![Context Diagram](docs/ContextDiagram.html)
-
-![Context Diagram](docs/ContextDiagram.png)
+[![Context Diagram](docs/ContextDiagram.png)](docs/ContextDiagram.html)
 
 ## Setup Notes:
 
