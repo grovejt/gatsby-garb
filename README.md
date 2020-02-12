@@ -7,6 +7,12 @@ Re-worked version of the garb app from "The Gatsby Masterclass".
 
 [![Context Diagram](docs/ContextDiagram.png)](docs/ContextDiagram.html)
 
+## Changes
+
+- Use of gatsby-plugin-netlify-identity instead of just adding netlify-identity-widget as the course does.
+  - \> yarn add gatsby-plugin-netlify-identity
+  - \> yarn add react-netlify-identity-widget @reach/dialog @reach/tabs @reach/visually-hidden
+
 ## Setup Notes:
 
 Note: the following variables need to be set in a file named .env:

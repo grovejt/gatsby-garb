@@ -61,6 +61,13 @@ module.exports = {
         apiKey: process.env.SNIPCART_API_KEY,
         autopop: true
       }
+    },
+    // You can should only have one instance of this plugin
+    {
+      resolve: `gatsby-plugin-netlify-identity`,
+      options: {
+        url: `https://grovejt-gatsby-garb.netlify.com` // required!
+      }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

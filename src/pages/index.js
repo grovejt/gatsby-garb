@@ -1,11 +1,11 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import Image from "../components/image";
+import SEO from "../components/seo";
 
-console.log("process.env.NODE_ENV", process.env.NODE_ENV)
+console.log("process.env.NODE_ENV", process.env.NODE_ENV);
 // console.log("process.env.CONTENTFUL_SPACE_ID", process.env.CONTENTFUL_SPACE_ID)
 
 const IndexPage = () => (
@@ -23,6 +23,6 @@ const IndexPage = () => (
     <p />
     <Link to="/page-3/">Go to page 3</Link>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
